@@ -1,0 +1,38 @@
+{
+  "name": "myfingoal-automation",
+  "version": "1.0.0",
+  "description": "Enterprise test automation framework for myfingoal — Playwright + Cucumber + TypeScript",
+  "scripts": {
+    "test": "cucumber-js --config cucumber.config.js",
+    "test:smoke": "cucumber-js --config cucumber.config.js --tags @smoke",
+    "test:regression": "cucumber-js --config cucumber.config.js --tags @regression",
+    "test:fhb": "cucumber-js --config cucumber.config.js --tags @fhb",
+    "test:po": "cucumber-js --config cucumber.config.js --tags @property-owner",
+    "test:renter": "cucumber-js --config cucumber.config.js --tags @renter",
+    "allure:generate": "allure generate allure-results --clean -o allure-report",
+    "allure:open": "allure open allure-report",
+    "allure:serve": "allure serve allure-results"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.0.1",
+    "@cucumber/pretty-formatter": "^1.0.1",
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^22.19.17",
+    "allure-commandline": "^2.32.0",
+    "allure-cucumberjs": "^3.0.9",
+    "dotenv": "^17.4.2",
+    "playwright": "^1.48.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "type": "commonjs",
+  "keywords": [
+    "playwright",
+    "cucumber",
+    "typescript",
+    "automation",
+    "testing"
+  ],
+  "author": "imon-buragohain",
+  "license": "ISC"
+}

@@ -1,0 +1,56 @@
+{
+  "stampDutyScenarios": [
+    {
+      "id": "QLD-NEW-UNDER-CAP",
+      "description": "QLD new home under $750k — zero duty",
+      "inputs": {
+        "state": "QLD",
+        "propertyType": "new home",
+        "price": 649000
+      },
+      "expected": {
+        "stampDuty": 0,
+        "savingGreaterThanZero": true
+      }
+    },
+    {
+      "id": "QLD-NEW-OVER-CAP",
+      "description": "QLD new home over $750k — duty applies",
+      "inputs": {
+        "state": "QLD",
+        "propertyType": "new home",
+        "price": 800001
+      },
+      "expected": {
+        "stampDuty": null,
+        "savingGreaterThanZero": false
+      }
+    },
+    {
+      "id": "QLD-ESTABLISHED-UNDER-CAP",
+      "description": "QLD established under $700k — zero duty",
+      "inputs": {
+        "state": "QLD",
+        "propertyType": "established",
+        "price": 699000
+      },
+      "expected": {
+        "stampDuty": 0,
+        "savingGreaterThanZero": true
+      }
+    },
+    {
+      "id": "NSW-NEW-UNDER-CAP",
+      "description": "NSW new home under $800k — zero duty",
+      "inputs": {
+        "state": "NSW",
+        "propertyType": "new home",
+        "price": 800000
+      },
+      "expected": {
+        "stampDuty": 0,
+        "savingGreaterThanZero": true
+      }
+    }
+  ]
+}
