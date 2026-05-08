@@ -11,23 +11,15 @@ let fhbPage: FHBPage;
 
 Given('I am on the First Home Buyer planner',
   async function (this: ICustomWorld) {
-    const url = 'https://myfingoal.vercel.app/planner/fhb';
-    console.log(`Navigating to: ${url}`);
-    try {
-      await this.page.goto(url, {
-        waitUntil: 'domcontentloaded',
-        timeout: 30000
-      });
-      console.log(`Current URL after goto: ${this.page.url()}`);
-    } catch (e) {
-      console.log(`goto() failed with: ${e}`);
-      throw e;
-    }
+    await this.page.goto('/planner/fhb', {
+      waitUntil: 'domcontentloaded',
+      timeout: 30000
+    });
     await this.page.waitForSelector(
       'button:has-text("Just me")',
       { timeout: 30000 }
     );
-    console.log('FHB form loaded and ready');
+    console.log(`FHB form loaded and ready`);
     fhbPage = new FHBPage(this.page);
   }
 );

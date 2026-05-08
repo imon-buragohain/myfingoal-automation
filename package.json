@@ -4,14 +4,19 @@
   "description": "Enterprise test automation framework for myfingoal — Playwright + Cucumber + TypeScript",
   "scripts": {
     "test": "cucumber-js --config cucumber.config.js",
-    "test:smoke": "cucumber-js --config cucumber.config.js --tags @smoke",
-    "test:regression": "cucumber-js --config cucumber.config.js --tags @regression",
-    "test:fhb": "cucumber-js --config cucumber.config.js --tags @fhb",
-    "test:po": "cucumber-js --config cucumber.config.js --tags @property-owner",
-    "test:renter": "cucumber-js --config cucumber.config.js --tags @renter",
-    "allure:generate": "allure generate allure-results --clean -o allure-report",
-    "allure:open": "allure open allure-report",
-    "allure:serve": "allure serve allure-results"
+    "test:smoke":        "node scripts/run-tests.js smoke",
+    "test:regression":   "node scripts/run-tests.js regression",
+    "test:fhb":          "node scripts/run-tests.js fhb",
+    "test:fhb-smoke":    "node scripts/run-tests.js fhb-smoke",
+    "test:fhb-reg":      "node scripts/run-tests.js fhb-regression",
+    "test:po":           "node scripts/run-tests.js property-owner",
+    "test:po-smoke":     "node scripts/run-tests.js po-smoke",
+    "test:po-reg":       "node scripts/run-tests.js po-regression",
+    "test:sr":           "node scripts/run-tests.js renter",
+    "test:sr-smoke":     "node scripts/run-tests.js sr-smoke",
+    "test:sr-reg":       "node scripts/run-tests.js sr-regression",
+    "allure:open":       "allure open allure-report",
+    "allure:serve":      "allure serve allure-results"
   },
   "devDependencies": {
     "@cucumber/cucumber": "^11.0.1",
@@ -25,6 +30,7 @@
     "ts-node": "^10.9.2",
     "typescript": "^5.6.3"
   },
+  
   "type": "commonjs",
   "keywords": [
     "playwright",
