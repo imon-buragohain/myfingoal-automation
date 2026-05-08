@@ -4,4 +4,5 @@ allure-results/
 allure-report/
 reports/
 .env
+test-runs/
 test-nav.js

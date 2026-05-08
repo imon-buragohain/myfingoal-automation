@@ -1,8 +1,0 @@
-{
-  "tag": "smoke",
-  "module": "All_Modules",
-  "suite": "Smoke_Test",
-  "runTime": "2026-05-08T03:20:37.013Z",
-  "passed": true,
-  "reportPath": "test-runs\\Run_08-05-2026\\All_Modules\\Smoke_Test\\Report_13-20-37"
-}
