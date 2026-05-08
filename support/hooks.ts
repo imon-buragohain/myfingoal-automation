@@ -24,8 +24,8 @@ BeforeAll(async () => {
   );
 
   browser = await chromium.launch({
-    headless: false,
-    slowMo: 500
+  headless: process.env.CI === 'true',
+  slowMo: process.env.CI === 'true' ? 0 : 500
   });
 });
 
