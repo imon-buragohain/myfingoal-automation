@@ -197,7 +197,7 @@ A few things stood out that I wouldn't have learned from a course or a tutorial:
 
 **React SPAs need different navigation handling.** `goto()` completes before React renders anything. You need to wait for a meaningful element, not just `networkidle` — which never settles on a SPA anyway.
 
-**Labels without `for` attributes break `getByLabel()`.** The myfingoal app's form labels aren't programmatically associated with their inputs. This was intentionally done to ensure the test automation framework all kinds of elements. The fix was a container-scoped locator that finds the input through its parent div.
+**Labels without `for` attributes break `getByLabel()`.** The myfingoal app's form labels aren't programmatically associated with their inputs. This was intentionally done to ensure that the test automation framework can handle all kinds of elements. The fix was a container-scoped locator that finds the input through its parent div.
 
 **Excel dates are a timezone trap.** The `xlsx` library reads Excel date serials as UTC midnight. If you call `getMonth()` without correcting for local timezone offset, Brisbane's UTC+10 shifts the date back to the previous day — and often the previous month. The fix is to apply `getTimezoneOffset()` before reading the date values.
 
