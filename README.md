@@ -155,7 +155,7 @@ The pipeline also runs on a nightly schedule — 8am AEST — so any changes to 
 
 **Live report:** https://imon-buragohain.github.io/myfingoal-automation/latest/
 
-**Live application being tested:** https://myfingoal.vercel.app
+**Live application being tested:** url will be provided on request
 
 ---
 
