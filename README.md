@@ -212,7 +212,3 @@ I'm a Test Manager with experience across different applications and enterprise 
 That's a honest description of what Test Managers do. But it left a gap I wanted to close.
 
 This project was built to fill that gap. I wanted to understand every line — why a locator is written one way and not another, what actually happens when a React SPA doesn't finish rendering before Playwright tries to interact with it, how timezone offsets corrupt Excel dates in ways that aren't obvious until 2am. The kind of things you only learn by being the person who hits the problem and has to fix it.
-
----
-
-*Framework built: May 2026. Application under test: myfingoal v2.0 (Three-stream platform edition).*
