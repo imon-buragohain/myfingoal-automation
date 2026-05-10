@@ -1,6 +1,6 @@
 # myfingoal-automation
 
-**Playwright ( (incl. Codegen) + Cucumber + TypeScript — Enterprise Test Automation Framework**
+**Playwright (incl. Codegen) + Cucumber + TypeScript — Enterprise Test Automation Framework**
 
 ---
 
