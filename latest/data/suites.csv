@@ -1,28 +1,28 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"As a first home buyer
-  I want to know if I am eligible for the First Home Owner Grant
-  So that I can include it in my deposit planning","923","Permanent Resident is also eligible for FHOG","","2026-05-10","passed","2026-05-10","","","",""
 "As a first home buyer in Queensland
   I want to know how much stamp duty I will pay
-  So that I can accurately plan my upfront costs","876","New build under $750k receives full stamp duty exemption","","2026-05-10","passed","2026-05-10","","","",""
-"As a first home buyer
-  I want to know if I am eligible for Help to Buy
-  So that I can consider the shared equity option","848","Eligible individual under income cap is approved for Help to Buy","","2026-05-10","passed","2026-05-10","","","",""
-"As a first home buyer
-  I want to know if I am eligible for Help to Buy
-  So that I can consider the shared equity option","780","WA buyer is not eligible — state not participating","","2026-05-10","passed","2026-05-10","","","",""
+  So that I can accurately plan my upfront costs","927","New build under $750k receives full stamp duty exemption","","2026-05-10","passed","2026-05-10","","","",""
 "As a first home buyer in Queensland
   I want to know how much stamp duty I will pay
-  So that I can accurately plan my upfront costs","776","Established home over $700k receives stamp duty charge","","2026-05-10","passed","2026-05-10","","","",""
+  So that I can accurately plan my upfront costs","904","Established home over $700k receives stamp duty charge","","2026-05-10","passed","2026-05-10","","","",""
 "As a first home buyer
   I want to know if I am eligible for the First Home Owner Grant
-  So that I can include it in my deposit planning","952","QLD new home after FHOG reversion receives $15,000 grant","","2026-05-10","passed","2026-05-10","","","",""
+  So that I can include it in my deposit planning","1178","QLD new home before FHOG reversion receives $30,000 grant","","2026-05-10","passed","2026-05-10","","","",""
 "As a first home buyer
   I want to know if I am eligible for Help to Buy
-  So that I can consider the shared equity option","942","Permanent Resident is not eligible for Help to Buy","","2026-05-10","passed","2026-05-10","","","",""
+  So that I can consider the shared equity option","880","WA buyer is not eligible — state not participating","","2026-05-10","passed","2026-05-10","","","",""
 "As a first home buyer
   I want to know if I am eligible for Help to Buy
-  So that I can consider the shared equity option","899","Individual over $100k income cap is not eligible for Help to Buy","","2026-05-10","passed","2026-05-10","","","",""
+  So that I can consider the shared equity option","897","Permanent Resident is not eligible for Help to Buy","","2026-05-10","passed","2026-05-10","","","",""
+"As a first home buyer
+  I want to know if I am eligible for Help to Buy
+  So that I can consider the shared equity option","905","Eligible individual under income cap is approved for Help to Buy","","2026-05-10","passed","2026-05-10","","","",""
+"As a first home buyer
+  I want to know if I am eligible for Help to Buy
+  So that I can consider the shared equity option","893","Individual over $100k income cap is not eligible for Help to Buy","","2026-05-10","passed","2026-05-10","","","",""
 "As a first home buyer
   I want to know if I am eligible for the First Home Owner Grant
-  So that I can include it in my deposit planning","1084","QLD new home before FHOG reversion receives $30,000 grant","","2026-05-10","passed","2026-05-10","","","",""
+  So that I can include it in my deposit planning","929","Permanent Resident is also eligible for FHOG","","2026-05-10","passed","2026-05-10","","","",""
+"As a first home buyer
+  I want to know if I am eligible for the First Home Owner Grant
+  So that I can include it in my deposit planning","1008","QLD new home after FHOG reversion receives $15,000 grant","","2026-05-10","passed","2026-05-10","","","",""
