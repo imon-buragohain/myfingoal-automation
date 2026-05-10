@@ -195,6 +195,8 @@ myfingoal-automation/
 
 A few things stood out that I wouldn't have learned from a course or a tutorial:
 
+**Playwright Codegen for productivity improvement** Playwright Codegen was invaluable for element identification — rather than hand-writing locators through trial and error, Codegen lets you interact with the page and generates the selector, which you then evaluate, refine, and decide whether to use. It's a legitimate professional tool and using it well is a skill in itself.
+
 **React SPAs need different navigation handling.** `goto()` completes before React renders anything. You need to wait for a meaningful element, not just `networkidle` — which never settles on a SPA anyway.
 
 **Labels without `for` attributes break `getByLabel()`.** The myfingoal app's form labels aren't programmatically associated with their inputs. This was intentionally done to ensure that the test automation framework can handle all kinds of elements. The fix was a container-scoped locator that finds the input through its parent div.
