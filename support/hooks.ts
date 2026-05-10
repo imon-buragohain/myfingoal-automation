@@ -4,6 +4,15 @@ import { chromium, Browser } from 'playwright';
 import { ICustomWorld } from './world';
 import * as fs from 'fs';
 import * as path from 'path';
+// In hooks.ts BeforeAll — load Excel once
+import * as XLSX from 'xlsx';
+
+const workbook = XLSX.readFile('fixtures/fhb-test-cases.xlsx');
+const sheet = workbook.Sheets['Sheet1'];
+export const testCases = XLSX.utils.sheet_to_json(sheet);
+
+// In step definitions — use loaded data
+// Scenario runs once per Excel row
 
 let browser: Browser;
 

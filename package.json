@@ -4,19 +4,23 @@
   "description": "Enterprise test automation framework for myfingoal — Playwright + Cucumber + TypeScript",
   "scripts": {
     "test": "cucumber-js --config cucumber.config.js",
-    "test:smoke":        "node scripts/run-tests.js smoke",
-    "test:regression":   "node scripts/run-tests.js regression",
-    "test:fhb":          "node scripts/run-tests.js fhb",
-    "test:fhb-smoke":    "node scripts/run-tests.js fhb-smoke",
-    "test:fhb-reg":      "node scripts/run-tests.js fhb-regression",
-    "test:po":           "node scripts/run-tests.js property-owner",
-    "test:po-smoke":     "node scripts/run-tests.js po-smoke",
-    "test:po-reg":       "node scripts/run-tests.js po-regression",
-    "test:sr":           "node scripts/run-tests.js renter",
-    "test:sr-smoke":     "node scripts/run-tests.js sr-smoke",
-    "test:sr-reg":       "node scripts/run-tests.js sr-regression",
-    "allure:open":       "allure open allure-report",
-    "allure:serve":      "allure serve allure-results"
+    "test:smoke": "node scripts/run-tests.js smoke",
+    "test:regression": "node scripts/run-tests.js regression",
+    "test:fhb": "node scripts/run-tests.js fhb",
+    "test:fhb-smoke": "node scripts/run-tests.js fhb-smoke",
+    "test:fhb-reg": "node scripts/run-tests.js fhb-regression",
+    "test:fhog": "node scripts/run-tests.js fhog",
+    "test:htb": "node scripts/run-tests.js htb",
+    "test:po": "node scripts/run-tests.js property-owner",
+    "test:po-smoke": "node scripts/run-tests.js po-smoke",
+    "test:po-reg": "node scripts/run-tests.js po-regression",
+    "test:sr": "node scripts/run-tests.js renter",
+    "test:sr-smoke": "node scripts/run-tests.js sr-smoke",
+    "test:sr-reg": "node scripts/run-tests.js sr-regression",
+    "allure:open": "allure open allure-report",
+    "allure:serve": "allure serve allure-results",
+    "generate:excel": "node scripts/generate-excel-feature.js",
+    "test:excel": "node scripts/generate-excel-feature.js && node scripts/run-tests.js excel"
   },
   "devDependencies": {
     "@cucumber/cucumber": "^11.0.1",
@@ -28,9 +32,9 @@
     "dotenv": "^17.4.2",
     "playwright": "^1.48.0",
     "ts-node": "^10.9.2",
-    "typescript": "^5.6.3"
+    "typescript": "^5.6.3",
+    "xlsx": "^0.18.5"
   },
-  
   "type": "commonjs",
   "keywords": [
     "playwright",

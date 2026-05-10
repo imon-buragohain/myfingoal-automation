@@ -4,17 +4,20 @@ const path = require('path');
 
 // --- Module and tag mappings ---
 const TAG_TO_MODULE = {
-  'smoke':          { module: 'All_Modules',        suite: 'Smoke_Test' },
-  'regression':     { module: 'All_Modules',        suite: 'Regression_Test' },
-  'fhb':            { module: 'First_Home_Buyer',   suite: 'Full_Test_Suite' },
-  'property-owner': { module: 'Property_Investor',  suite: 'Full_Test_Suite' },
-  'renter':         { module: 'Smart_Renter',       suite: 'Full_Test_Suite' },
-  'fhb-smoke':      { module: 'First_Home_Buyer',   suite: 'Smoke_Test' },
-  'fhb-regression': { module: 'First_Home_Buyer',   suite: 'Regression_Test' },
-  'po-smoke':       { module: 'Property_Investor',  suite: 'Smoke_Test' },
-  'po-regression':  { module: 'Property_Investor',  suite: 'Regression_Test' },
-  'sr-smoke':       { module: 'Smart_Renter',       suite: 'Smoke_Test' },
-  'sr-regression':  { module: 'Smart_Renter',       suite: 'Regression_Test' },
+  'smoke':          { module: 'All_Modules',       suite: 'Smoke_Test' },
+  'regression':     { module: 'All_Modules',       suite: 'Regression_Test' },
+  'fhb':            { module: 'First_Home_Buyer',  suite: 'Full_Test_Suite' },
+  'fhb-smoke':      { module: 'First_Home_Buyer',  suite: 'Smoke_Test' },
+  'fhb-regression': { module: 'First_Home_Buyer',  suite: 'Regression_Test' },
+  'fhog':           { module: 'First_Home_Buyer',  suite: 'FHOG_Tests' },      // ← add
+  'htb':            { module: 'First_Home_Buyer',  suite: 'Help_To_Buy_Tests' }, // ← add
+  'property-owner': { module: 'Property_Investor', suite: 'Full_Test_Suite' },
+  'po-smoke':       { module: 'Property_Investor', suite: 'Smoke_Test' },
+  'po-regression':  { module: 'Property_Investor', suite: 'Regression_Test' },
+  'renter':         { module: 'Smart_Renter',      suite: 'Full_Test_Suite' },
+  'sr-smoke':       { module: 'Smart_Renter',      suite: 'Smoke_Test' },
+  'sr-regression':  { module: 'Smart_Renter',      suite: 'Regression_Test' },
+  'excel': { module: 'First_Home_Buyer', suite: 'Excel_Regression' },
 };
 
 // --- Parse arguments ---
