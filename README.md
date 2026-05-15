@@ -1,6 +1,6 @@
 # myfingoal-automation
 
-**Playwright + Cucumber + TypeScript — Enterprise Test Automation Framework**
+**Playwright (incl. Codegen) + Cucumber + TypeScript + Allure + Github Actions (CI) — Enterprise Test Automation Framework**
 
 ---
 
@@ -155,7 +155,7 @@ The pipeline also runs on a nightly schedule — 8am AEST — so any changes to 
 
 **Live report:** https://imon-buragohain.github.io/myfingoal-automation/latest/
 
-**Live application being tested:** https://myfingoal.vercel.app
+**Live application being tested:** url will be provided on request
 
 ---
 
@@ -195,9 +195,11 @@ myfingoal-automation/
 
 A few things stood out that I wouldn't have learned from a course or a tutorial:
 
+**Playwright Codegen for productivity improvement** Playwright Codegen was invaluable for element identification — rather than hand-writing locators through trial and error, Codegen lets you interact with the page and generates the selector, which you then evaluate, refine, and decide whether to use. It's a legitimate professional tool and using it well is a skill in itself.
+
 **React SPAs need different navigation handling.** `goto()` completes before React renders anything. You need to wait for a meaningful element, not just `networkidle` — which never settles on a SPA anyway.
 
-**Labels without `for` attributes break `getByLabel()`.** The myfingoal app's form labels aren't programmatically associated with their inputs. This is both an accessibility gap and a testability gap. The fix was a container-scoped locator that finds the input through its parent div. It's also a useful finding to feed back to the development team.
+**Labels without `for` attributes break `getByLabel()`.** The myfingoal app's form labels aren't programmatically associated with their inputs. This was intentionally done to ensure that the test automation framework can handle all kinds of elements. The fix was a container-scoped locator that finds the input through its parent div.
 
 **Excel dates are a timezone trap.** The `xlsx` library reads Excel date serials as UTC midnight. If you call `getMonth()` without correcting for local timezone offset, Brisbane's UTC+10 shifts the date back to the previous day — and often the previous month. The fix is to apply `getTimezoneOffset()` before reading the date values.
 
@@ -205,16 +207,10 @@ A few things stood out that I wouldn't have learned from a course or a tutorial:
 
 ---
 
-## Background
-
-## Background
+## My Background
 
 I'm a Test Manager with experience across different applications and enterprise software over the last 20 years. In a previous role I successfully designed and implemented an automation strategy for a Warehouse Management System — same stack as this project: Cucumber, Playwright, TypeScript, Allure. That engagement was successful, but my involvement was primarily strategic: framework architecture decisions, tool selection, team oversight, stakeholder reporting, and keeping the programme on track. The day-to-day technical decisions and actual script writing were handled by the automation engineers I was leading.
 
 That's a honest description of what Test Managers do. But it left a gap I wanted to close.
 
 This project was built to fill that gap. I wanted to understand every line — why a locator is written one way and not another, what actually happens when a React SPA doesn't finish rendering before Playwright tries to interact with it, how timezone offsets corrupt Excel dates in ways that aren't obvious until 2am. The kind of things you only learn by being the person who hits the problem and has to fix it.
-
----
-
-*Framework built: May 2026. Application under test: myfingoal v2.0 (Three-stream platform edition).*
