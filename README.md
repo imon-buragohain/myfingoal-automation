@@ -171,8 +171,8 @@ myfingoal-automation/
 │       └── fhb-excel.feature         ← auto-generated from Excel (43 scenarios)
 ├── step-definitions/
 │   └── fhb/
-│       ├── stamp-duty.steps.ts
-│       └── fhog-htb.steps.ts
+│       ├── fhb.steps.ts
+│       
 ├── pages/
 │   └── FHBPage.ts                    ← all locators and interactions
 ├── support/
