@@ -1,0 +1,97 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"As a user reviewing my financial plan
+  I want to see clear results with accurate charts and wealth breakdown
+  So that I can understand my financial security and make informed decisions","34","Results page KPI cards show four key financial metrics","","2026-05-17","passed","2026-05-17","","","",""
+"As a property owner with a home loan
+  I want to enter my mortgage details and offset balance accurately
+  So that I can see the true interest saving and early payoff benefit","33","Entering an interest rate auto-calculates the monthly repayment","","2026-05-17","passed","2026-05-17","","","",""
+"As a property investor
+  I want to enter my investment property details accurately
+  So that I can see the correct negative gearing treatment and retirement income","32","Interest Only loan option for investment property","","2026-05-17","passed","2026-05-17","","","",""
+"As a property investor
+  I want to enter my investment property details accurately
+  So that I can see the correct negative gearing treatment and retirement income","32","Weekly rental income converts to monthly equivalent","","2026-05-17","passed","2026-05-17","","","",""
+"As a first home buyer in Queensland
+  I want to know how much stamp duty I will pay
+  So that I can accurately plan my upfront costs","929","Established home over $700k receives stamp duty charge","","2026-05-17","passed","2026-05-17","","","",""
+"As a property owner choosing how to grow my wealth
+  I want to allocate my monthly surplus across offset and investment options
+  So that the calculation engine reflects my actual savings strategy","35","Allocation reaching 100 percent shows green tick confirmation","","2026-05-17","passed","2026-05-17","","","",""
+"As a new or returning user
+  I want to find, access, and navigate the Property Owner stream
+  So that I can start planning my financial future without confusion","32","Demo scenario pre-fills all form fields and shows results immediately","","2026-05-17","passed","2026-05-17","","","",""
+"As a first home buyer
+  I want to know if I am eligible for Help to Buy
+  So that I can consider the shared equity option","878","Permanent Resident is not eligible for Help to Buy","","2026-05-17","passed","2026-05-17","","","",""
+"As a property owner with a home loan
+  I want to enter my mortgage details and offset balance accurately
+  So that I can see the true interest saving and early payoff benefit","39","Offset account balance shows live monthly saving and reduces total interest","","2026-05-17","passed","2026-05-17","","","",""
+"As a first home buyer
+  I want to know if I am eligible for the First Home Owner Grant
+  So that I can include it in my deposit planning","1162","QLD new home before FHOG reversion receives $30,000 grant","","2026-05-17","passed","2026-05-17","","","",""
+"As a property owner planning for retirement
+  I want to see accurate super projections and retirement income
+  So that I can understand my financial security in retirement","33","Combined super balance shown for couple scenarios","","2026-05-17","passed","2026-05-17","","","",""
+"As a first home buyer
+  I want to know if I am eligible for Help to Buy
+  So that I can consider the shared equity option","866","WA buyer is not eligible — state not participating","","2026-05-17","passed","2026-05-17","","","",""
+"As a new or returning user
+  I want to find, access, and navigate the Property Owner stream
+  So that I can start planning my financial future without confusion","32","Home link in the form sidebar returns user to the landing page","","2026-05-17","passed","2026-05-17","","","",""
+"As a parent and property owner
+  I want to account for education costs and vehicle leasing strategies
+  So that my financial plan reflects my true lifestyle and tax situation","33","EV novated lease shows pre-tax treatment and tax saving","","2026-05-17","passed","2026-05-17","","","",""
+"As a property owner planning my financial future
+  I want to enter my personal details and income accurately
+  So that my calculations reflect my actual situation","32","Super rate field defaults to 12.0 percent with ATO minimum helper text","","2026-05-17","passed","2026-05-17","","","",""
+"As a property owner choosing how to grow my wealth
+  I want to allocate my monthly surplus across offset and investment options
+  So that the calculation engine reflects my actual savings strategy","82","Primary mortgage only shows exactly two savings allocation phases","","2026-05-17","passed","2026-05-17","","","",""
+"As a property investor
+  I want to enter my investment property details accurately
+  So that I can see the correct negative gearing treatment and retirement income","33","Add an investment property with negative gearing","","2026-05-17","passed","2026-05-17","","","",""
+"As a property owner planning my financial future
+  I want to enter my personal details and income accurately
+  So that my calculations reflect my actual situation","34","Enter details for a single person","","2026-05-17","passed","2026-05-17","","","",""
+"As a first home buyer
+  I want to know if I am eligible for Help to Buy
+  So that I can consider the shared equity option","1107","Individual over $100k income cap is not eligible for Help to Buy","","2026-05-17","passed","2026-05-17","","","",""
+"As a user reviewing my financial plan
+  I want to see clear results with accurate charts and wealth breakdown
+  So that I can understand my financial security and make informed decisions","33","Wealth Breakdown correctly splits liquid and hard assets","","2026-05-17","passed","2026-05-17","","","",""
+"As a user reviewing my financial plan
+  I want to see clear results with accurate charts and wealth breakdown
+  So that I can understand my financial security and make informed decisions","50","Footer buttons allow editing and downloading","","2026-05-17","passed","2026-05-17","","","",""
+"As a first home buyer in Queensland
+  I want to know how much stamp duty I will pay
+  So that I can accurately plan my upfront costs","768","New build under $750k receives full stamp duty exemption","","2026-05-17","passed","2026-05-17","","","",""
+"As a first home buyer
+  I want to know if I am eligible for the First Home Owner Grant
+  So that I can include it in my deposit planning","928","QLD new home after FHOG reversion receives $15,000 grant","","2026-05-17","passed","2026-05-17","","","",""
+"As a property owner planning for retirement
+  I want to see accurate super projections and retirement income
+  So that I can understand my financial security in retirement","34","Optimal retirement income is calculated and displayed","","2026-05-17","passed","2026-05-17","","","",""
+"As a parent and property owner
+  I want to account for education costs and vehicle leasing strategies
+  So that my financial plan reflects my true lifestyle and tax situation","37","Enter children's education costs and see monthly impact","","2026-05-17","passed","2026-05-17","","","",""
+"As a first home buyer
+  I want to know if I am eligible for Help to Buy
+  So that I can consider the shared equity option","895","Eligible individual under income cap is approved for Help to Buy","","2026-05-17","passed","2026-05-17","","","",""
+"As a property owner planning for retirement
+  I want to see accurate super projections and retirement income
+  So that I can understand my financial security in retirement","32","Super balance projects to retirement with correct deductions","","2026-05-17","passed","2026-05-17","","","",""
+"As a property owner planning my financial future
+  I want to enter my personal details and income accurately
+  So that my calculations reflect my actual situation","35","Salary includes Superannuation toggle shows division helper","","2026-05-17","passed","2026-05-17","","","",""
+"As a property owner choosing how to grow my wealth
+  I want to allocate my monthly surplus across offset and investment options
+  So that the calculation engine reflects my actual savings strategy","36","Primary plus IP with P&I loan shows exactly three savings allocation phases","","2026-05-17","passed","2026-05-17","","","",""
+"As a first home buyer
+  I want to know if I am eligible for the First Home Owner Grant
+  So that I can include it in my deposit planning","878","Permanent Resident is also eligible for FHOG","","2026-05-17","passed","2026-05-17","","","",""
+"As a property owner with a home loan
+  I want to enter my mortgage details and offset balance accurately
+  So that I can see the true interest saving and early payoff benefit","33","How we calculated this shows personalised mortgage narrative with correct age","","2026-05-17","passed","2026-05-17","","","",""
+"As a new or returning user
+  I want to find, access, and navigate the Property Owner stream
+  So that I can start planning my financial future without confusion","32","Property Owner stream card is visible and navigates to the planner form","","2026-05-17","passed","2026-05-17","","","",""
