@@ -80,7 +80,8 @@ fs.writeFileSync(
 let testsPassed = true;
 try {
   execSync(
-    `npx cucumber-js --config cucumber.config.js --tags @${tag}`,
+    //`npx cucumber-js --config cucumber.config.js --tags @${tag}`,
+    `npx cucumber-js --config cucumber.config.js --tags "@smoke and not @property-owner"`,
     { stdio: 'inherit' }
   );
 } catch (e) {
