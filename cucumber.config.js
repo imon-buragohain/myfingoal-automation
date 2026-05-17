@@ -13,12 +13,11 @@ module.exports = {
       'json:reports/cucumber-report.json',
       'html:reports/cucumber-report.html'
     ],
-    formatOptions: {
-      snippetInterface: 'async-await'
-    },
+    formatOptions: { snippetInterface: 'async-await' },
     parallel: 1,
-    paths: ['features/**/*.feature']
-  },
+    paths: ['features/**/*.feature'],
+    strict: true        // Fail if there are any undefined or pending steps
+    },
   smoke: {
     requireModule: ['ts-node/register'],
     require: [
@@ -37,6 +36,7 @@ module.exports = {
     },
     parallel: 1,
     paths: ['features/**/*.feature'],
+    strict: true,       // Fail if there are any undefined or pending steps
     tags: '@smoke'
   },
 }

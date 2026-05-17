@@ -188,7 +188,7 @@ Feature: Results page display, charts and wealth breakdown
     When I calculate my property owner plan
     And I click the "↓ Download PDF" button
     Then either a file download should start
-    Or a loading/spinner indicator should appear
+    And a loading/spinner indicator should appear
     And no error message should be shown
 
   @regression @property-owner @results
@@ -196,7 +196,7 @@ Feature: Results page display, charts and wealth breakdown
     When I calculate my property owner plan
     And I click the "↓ Download Excel" button
     Then either a file download should start
-    Or a loading/spinner indicator should appear
+    And a loading/spinner indicator should appear
     And no error message should be shown
 
   @regression @property-owner @results

@@ -211,7 +211,7 @@ Feature: Superannuation projections and retirement income calculations
     And I calculate my property owner plan
     And I expand "How we calculated this" in the Superannuation Summary
     Then the explanation should mention "Division 293 tax"
-    Or a Division 293 note should appear
+    And a Division 293 note should appear
 
   @regression @property-owner @super
   Scenario: Division 293 no longer applies when salary drops below threshold
