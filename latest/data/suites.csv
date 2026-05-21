@@ -1,28 +1,28 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"As a first home buyer
+  I want to know if I am eligible for Help to Buy
+  So that I can consider the shared equity option","1247","Eligible individual under income cap is approved for Help to Buy","","2026-05-21","passed","2026-05-21","","","",""
+"As a first home buyer
+  I want to know if I am eligible for the First Home Owner Grant
+  So that I can include it in my deposit planning","1220","QLD new home after FHOG reversion receives $15,000 grant","","2026-05-21","passed","2026-05-21","","","",""
+"As a first home buyer
+  I want to know if I am eligible for the First Home Owner Grant
+  So that I can include it in my deposit planning","1116","Permanent Resident is also eligible for FHOG","","2026-05-21","passed","2026-05-21","","","",""
 "As a first home buyer in Queensland
   I want to know how much stamp duty I will pay
-  So that I can accurately plan my upfront costs","856","New build under $750k receives full stamp duty exemption","","2026-05-20","passed","2026-05-20","","","",""
+  So that I can accurately plan my upfront costs","1006","New build under $750k receives full stamp duty exemption","","2026-05-21","passed","2026-05-21","","","",""
+"As a first home buyer
+  I want to know if I am eligible for the First Home Owner Grant
+  So that I can include it in my deposit planning","2543","QLD new home before FHOG reversion receives $30,000 grant","","2026-05-21","passed","2026-05-21","","","",""
+"As a first home buyer
+  I want to know if I am eligible for Help to Buy
+  So that I can consider the shared equity option","1027","Permanent Resident is not eligible for Help to Buy","","2026-05-21","passed","2026-05-21","","","",""
+"As a first home buyer
+  I want to know if I am eligible for Help to Buy
+  So that I can consider the shared equity option","1035","WA buyer is not eligible — state not participating","","2026-05-21","passed","2026-05-21","","","",""
+"As a first home buyer
+  I want to know if I am eligible for Help to Buy
+  So that I can consider the shared equity option","1000","Individual over $100k income cap is not eligible for Help to Buy","","2026-05-21","passed","2026-05-21","","","",""
 "As a first home buyer in Queensland
   I want to know how much stamp duty I will pay
-  So that I can accurately plan my upfront costs","846","Established home over $700k receives stamp duty charge","","2026-05-20","passed","2026-05-20","","","",""
-"As a first home buyer
-  I want to know if I am eligible for Help to Buy
-  So that I can consider the shared equity option","933","Eligible individual under income cap is approved for Help to Buy","","2026-05-20","passed","2026-05-20","","","",""
-"As a first home buyer
-  I want to know if I am eligible for Help to Buy
-  So that I can consider the shared equity option","857","Individual over $100k income cap is not eligible for Help to Buy","","2026-05-20","passed","2026-05-20","","","",""
-"As a first home buyer
-  I want to know if I am eligible for the First Home Owner Grant
-  So that I can include it in my deposit planning","855","Permanent Resident is also eligible for FHOG","","2026-05-20","passed","2026-05-20","","","",""
-"As a first home buyer
-  I want to know if I am eligible for the First Home Owner Grant
-  So that I can include it in my deposit planning","968","QLD new home after FHOG reversion receives $15,000 grant","","2026-05-20","passed","2026-05-20","","","",""
-"As a first home buyer
-  I want to know if I am eligible for Help to Buy
-  So that I can consider the shared equity option","1358","Permanent Resident is not eligible for Help to Buy","","2026-05-20","passed","2026-05-20","","","",""
-"As a first home buyer
-  I want to know if I am eligible for the First Home Owner Grant
-  So that I can include it in my deposit planning","1550","QLD new home before FHOG reversion receives $30,000 grant","","2026-05-20","passed","2026-05-20","","","",""
-"As a first home buyer
-  I want to know if I am eligible for Help to Buy
-  So that I can consider the shared equity option","877","WA buyer is not eligible — state not participating","","2026-05-20","passed","2026-05-20","","","",""
+  So that I can accurately plan my upfront costs","1014","Established home over $700k receives stamp duty charge","","2026-05-21","passed","2026-05-21","","","",""
