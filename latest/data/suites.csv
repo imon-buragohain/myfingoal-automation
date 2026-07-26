@@ -1,28 +1,28 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"As a first home buyer
+  I want to know if I am eligible for the First Home Owner Grant
+  So that I can include it in my deposit planning","729","QLD new home after FHOG reversion receives $15,000 grant","","2026-07-26","passed","2026-07-26","","","",""
+"As a first home buyer
+  I want to know if I am eligible for Help to Buy
+  So that I can consider the shared equity option","578","Individual over $100k income cap is not eligible for Help to Buy","","2026-07-26","passed","2026-07-26","","","",""
 "As a first home buyer in Queensland
   I want to know how much stamp duty I will pay
-  So that I can accurately plan my upfront costs","905","Established home over $700k receives stamp duty charge","","2026-07-25","passed","2026-07-25","","","",""
+  So that I can accurately plan my upfront costs","575","Established home over $700k receives stamp duty charge","","2026-07-26","passed","2026-07-26","","","",""
 "As a first home buyer
   I want to know if I am eligible for Help to Buy
-  So that I can consider the shared equity option","846","Permanent Resident is not eligible for Help to Buy","","2026-07-25","passed","2026-07-25","","","",""
+  So that I can consider the shared equity option","664","Permanent Resident is not eligible for Help to Buy","","2026-07-26","passed","2026-07-26","","","",""
 "As a first home buyer
   I want to know if I am eligible for the First Home Owner Grant
-  So that I can include it in my deposit planning","1095","QLD new home before FHOG reversion receives $30,000 grant","","2026-07-25","passed","2026-07-25","","","",""
+  So that I can include it in my deposit planning","1000","QLD new home before FHOG reversion receives $30,000 grant","","2026-07-26","passed","2026-07-26","","","",""
 "As a first home buyer
-  I want to know if I am eligible for the First Home Owner Grant
-  So that I can include it in my deposit planning","883","Permanent Resident is also eligible for FHOG","","2026-07-25","passed","2026-07-25","","","",""
+  I want to know if I am eligible for Help to Buy
+  So that I can consider the shared equity option","732","WA buyer is not eligible — state not participating","","2026-07-26","passed","2026-07-26","","","",""
 "As a first home buyer in Queensland
   I want to know how much stamp duty I will pay
-  So that I can accurately plan my upfront costs","904","New build under $750k receives full stamp duty exemption","","2026-07-25","passed","2026-07-25","","","",""
+  So that I can accurately plan my upfront costs","655","New build under $750k receives full stamp duty exemption","","2026-07-26","passed","2026-07-26","","","",""
 "As a first home buyer
   I want to know if I am eligible for Help to Buy
-  So that I can consider the shared equity option","799","WA buyer is not eligible — state not participating","","2026-07-25","passed","2026-07-25","","","",""
-"As a first home buyer
-  I want to know if I am eligible for Help to Buy
-  So that I can consider the shared equity option","787","Individual over $100k income cap is not eligible for Help to Buy","","2026-07-25","passed","2026-07-25","","","",""
+  So that I can consider the shared equity option","587","Eligible individual under income cap is approved for Help to Buy","","2026-07-26","passed","2026-07-26","","","",""
 "As a first home buyer
   I want to know if I am eligible for the First Home Owner Grant
-  So that I can include it in my deposit planning","978","QLD new home after FHOG reversion receives $15,000 grant","","2026-07-25","passed","2026-07-25","","","",""
-"As a first home buyer
-  I want to know if I am eligible for Help to Buy
-  So that I can consider the shared equity option","884","Eligible individual under income cap is approved for Help to Buy","","2026-07-25","passed","2026-07-25","","","",""
+  So that I can include it in my deposit planning","665","Permanent Resident is also eligible for FHOG","","2026-07-26","passed","2026-07-26","","","",""
