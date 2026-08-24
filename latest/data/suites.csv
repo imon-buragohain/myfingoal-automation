@@ -1,28 +1,28 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"As a first home buyer
-  I want to know if I am eligible for Help to Buy
-  So that I can consider the shared equity option","1942","WA buyer is not eligible — state not participating","","2026-08-23","passed","2026-08-23","","","",""
-"As a first home buyer
-  I want to know if I am eligible for Help to Buy
-  So that I can consider the shared equity option","2001","Individual over $100k income cap is not eligible for Help to Buy","","2026-08-23","passed","2026-08-23","","","",""
-"As a first home buyer
-  I want to know if I am eligible for the First Home Owner Grant
-  So that I can include it in my deposit planning","2003","Permanent Resident is also eligible for FHOG","","2026-08-23","passed","2026-08-23","","","",""
-"As a first home buyer
-  I want to know if I am eligible for Help to Buy
-  So that I can consider the shared equity option","1987","Permanent Resident is not eligible for Help to Buy","","2026-08-23","passed","2026-08-23","","","",""
-"As a first home buyer
-  I want to know if I am eligible for Help to Buy
-  So that I can consider the shared equity option","1970","Eligible individual under income cap is approved for Help to Buy","","2026-08-23","passed","2026-08-23","","","",""
 "As a first home buyer in Queensland
   I want to know how much stamp duty I will pay
-  So that I can accurately plan my upfront costs","1959","Established home over $700k receives stamp duty charge","","2026-08-23","passed","2026-08-23","","","",""
+  So that I can accurately plan my upfront costs","1910","Established home over $700k receives stamp duty charge","","2026-08-24","passed","2026-08-24","","","",""
+"As a first home buyer
+  I want to know if I am eligible for Help to Buy
+  So that I can consider the shared equity option","2435","Permanent Resident is not eligible for Help to Buy","","2026-08-24","passed","2026-08-24","","","",""
+"As a first home buyer
+  I want to know if I am eligible for the First Home Owner Grant
+  So that I can include it in my deposit planning","2237","QLD new home before FHOG reversion receives $30,000 grant","","2026-08-24","passed","2026-08-24","","","",""
 "As a first home buyer in Queensland
   I want to know how much stamp duty I will pay
-  So that I can accurately plan my upfront costs","2452","New build under $750k receives full stamp duty exemption","","2026-08-23","passed","2026-08-23","","","",""
+  So that I can accurately plan my upfront costs","1950","New build under $750k receives full stamp duty exemption","","2026-08-24","passed","2026-08-24","","","",""
 "As a first home buyer
   I want to know if I am eligible for the First Home Owner Grant
-  So that I can include it in my deposit planning","2281","QLD new home before FHOG reversion receives $30,000 grant","","2026-08-23","passed","2026-08-23","","","",""
+  So that I can include it in my deposit planning","1975","QLD new home after FHOG reversion receives $15,000 grant","","2026-08-24","passed","2026-08-24","","","",""
+"As a first home buyer
+  I want to know if I am eligible for Help to Buy
+  So that I can consider the shared equity option","1899","Individual over $100k income cap is not eligible for Help to Buy","","2026-08-24","passed","2026-08-24","","","",""
+"As a first home buyer
+  I want to know if I am eligible for Help to Buy
+  So that I can consider the shared equity option","1930","Eligible individual under income cap is approved for Help to Buy","","2026-08-24","passed","2026-08-24","","","",""
+"As a first home buyer
+  I want to know if I am eligible for Help to Buy
+  So that I can consider the shared equity option","1966","WA buyer is not eligible — state not participating","","2026-08-24","passed","2026-08-24","","","",""
 "As a first home buyer
   I want to know if I am eligible for the First Home Owner Grant
-  So that I can include it in my deposit planning","2508","QLD new home after FHOG reversion receives $15,000 grant","","2026-08-23","passed","2026-08-23","","","",""
+  So that I can include it in my deposit planning","1912","Permanent Resident is also eligible for FHOG","","2026-08-24","passed","2026-08-24","","","",""
