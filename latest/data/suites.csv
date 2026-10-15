@@ -1,28 +1,28 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
 "As a first home buyer
   I want to know if I am eligible for Help to Buy
-  So that I can consider the shared equity option","1098","WA buyer is not eligible — state not participating","","2026-10-14","passed","2026-10-14","","","",""
+  So that I can consider the shared equity option","1520","WA buyer is not eligible — state not participating","","2026-10-15","passed","2026-10-15","","","",""
+"As a first home buyer
+  I want to know if I am eligible for the First Home Owner Grant
+  So that I can include it in my deposit planning","1701","QLD new home before FHOG reversion receives $30,000 grant","","2026-10-15","passed","2026-10-15","","","",""
 "As a first home buyer in Queensland
   I want to know how much stamp duty I will pay
-  So that I can accurately plan my upfront costs","1072","Established home over $700k receives stamp duty charge","","2026-10-14","passed","2026-10-14","","","",""
+  So that I can accurately plan my upfront costs","947","Established home over $700k receives stamp duty charge","","2026-10-15","passed","2026-10-15","","","",""
 "As a first home buyer
-  I want to know if I am eligible for the First Home Owner Grant
-  So that I can include it in my deposit planning","1543","QLD new home before FHOG reversion receives $30,000 grant","","2026-10-14","passed","2026-10-14","","","",""
+  I want to know if I am eligible for Help to Buy
+  So that I can consider the shared equity option","1462","Individual over $100k income cap is not eligible for Help to Buy","","2026-10-15","passed","2026-10-15","","","",""
 "As a first home buyer
-  I want to know if I am eligible for the First Home Owner Grant
-  So that I can include it in my deposit planning","1211","QLD new home after FHOG reversion receives $15,000 grant","","2026-10-14","passed","2026-10-14","","","",""
+  I want to know if I am eligible for Help to Buy
+  So that I can consider the shared equity option","1410","Eligible individual under income cap is approved for Help to Buy","","2026-10-15","passed","2026-10-15","","","",""
 "As a first home buyer in Queensland
   I want to know how much stamp duty I will pay
-  So that I can accurately plan my upfront costs","1410","New build under $750k receives full stamp duty exemption","","2026-10-14","passed","2026-10-14","","","",""
+  So that I can accurately plan my upfront costs","962","New build under $750k receives full stamp duty exemption","","2026-10-15","passed","2026-10-15","","","",""
+"As a first home buyer
+  I want to know if I am eligible for Help to Buy
+  So that I can consider the shared equity option","1455","Permanent Resident is not eligible for Help to Buy","","2026-10-15","passed","2026-10-15","","","",""
 "As a first home buyer
   I want to know if I am eligible for the First Home Owner Grant
-  So that I can include it in my deposit planning","1043","Permanent Resident is also eligible for FHOG","","2026-10-14","passed","2026-10-14","","","",""
+  So that I can include it in my deposit planning","1436","Permanent Resident is also eligible for FHOG","","2026-10-15","passed","2026-10-15","","","",""
 "As a first home buyer
-  I want to know if I am eligible for Help to Buy
-  So that I can consider the shared equity option","1151","Individual over $100k income cap is not eligible for Help to Buy","","2026-10-14","passed","2026-10-14","","","",""
-"As a first home buyer
-  I want to know if I am eligible for Help to Buy
-  So that I can consider the shared equity option","1009","Eligible individual under income cap is approved for Help to Buy","","2026-10-14","passed","2026-10-14","","","",""
-"As a first home buyer
-  I want to know if I am eligible for Help to Buy
-  So that I can consider the shared equity option","1020","Permanent Resident is not eligible for Help to Buy","","2026-10-14","passed","2026-10-14","","","",""
+  I want to know if I am eligible for the First Home Owner Grant
+  So that I can include it in my deposit planning","971","QLD new home after FHOG reversion receives $15,000 grant","","2026-10-15","passed","2026-10-15","","","",""
