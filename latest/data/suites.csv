@@ -1,28 +1,28 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
 "As a first home buyer
   I want to know if I am eligible for Help to Buy
-  So that I can consider the shared equity option","1140","Individual over $100k income cap is not eligible for Help to Buy","","2026-11-02","passed","2026-11-02","","","",""
-"As a first home buyer
-  I want to know if I am eligible for Help to Buy
-  So that I can consider the shared equity option","1585","WA buyer is not eligible — state not participating","","2026-11-02","passed","2026-11-02","","","",""
+  So that I can consider the shared equity option","1062","Eligible individual under income cap is approved for Help to Buy","","2026-11-03","passed","2026-11-03","","","",""
 "As a first home buyer
   I want to know if I am eligible for the First Home Owner Grant
-  So that I can include it in my deposit planning","1033","Permanent Resident is also eligible for FHOG","","2026-11-02","passed","2026-11-02","","","",""
-"As a first home buyer
-  I want to know if I am eligible for the First Home Owner Grant
-  So that I can include it in my deposit planning","1574","QLD new home before FHOG reversion receives $30,000 grant","","2026-11-02","passed","2026-11-02","","","",""
-"As a first home buyer
-  I want to know if I am eligible for the First Home Owner Grant
-  So that I can include it in my deposit planning","1148","QLD new home after FHOG reversion receives $15,000 grant","","2026-11-02","passed","2026-11-02","","","",""
+  So that I can include it in my deposit planning","1085","QLD new home after FHOG reversion receives $15,000 grant","","2026-11-03","passed","2026-11-03","","","",""
 "As a first home buyer
   I want to know if I am eligible for Help to Buy
-  So that I can consider the shared equity option","959","Permanent Resident is not eligible for Help to Buy","","2026-11-02","passed","2026-11-02","","","",""
+  So that I can consider the shared equity option","917","WA buyer is not eligible — state not participating","","2026-11-03","passed","2026-11-03","","","",""
 "As a first home buyer
   I want to know if I am eligible for Help to Buy
-  So that I can consider the shared equity option","1054","Eligible individual under income cap is approved for Help to Buy","","2026-11-02","passed","2026-11-02","","","",""
+  So that I can consider the shared equity option","1217","Permanent Resident is not eligible for Help to Buy","","2026-11-03","passed","2026-11-03","","","",""
 "As a first home buyer in Queensland
   I want to know how much stamp duty I will pay
-  So that I can accurately plan my upfront costs","1028","Established home over $700k receives stamp duty charge","","2026-11-02","passed","2026-11-02","","","",""
+  So that I can accurately plan my upfront costs","1008","New build under $750k receives full stamp duty exemption","","2026-11-03","passed","2026-11-03","","","",""
 "As a first home buyer in Queensland
   I want to know how much stamp duty I will pay
-  So that I can accurately plan my upfront costs","997","New build under $750k receives full stamp duty exemption","","2026-11-02","passed","2026-11-02","","","",""
+  So that I can accurately plan my upfront costs","1041","Established home over $700k receives stamp duty charge","","2026-11-03","passed","2026-11-03","","","",""
+"As a first home buyer
+  I want to know if I am eligible for the First Home Owner Grant
+  So that I can include it in my deposit planning","1857","QLD new home before FHOG reversion receives $30,000 grant","","2026-11-03","passed","2026-11-03","","","",""
+"As a first home buyer
+  I want to know if I am eligible for Help to Buy
+  So that I can consider the shared equity option","1398","Individual over $100k income cap is not eligible for Help to Buy","","2026-11-03","passed","2026-11-03","","","",""
+"As a first home buyer
+  I want to know if I am eligible for the First Home Owner Grant
+  So that I can include it in my deposit planning","1126","Permanent Resident is also eligible for FHOG","","2026-11-03","passed","2026-11-03","","","",""
